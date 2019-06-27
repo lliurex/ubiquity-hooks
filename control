@@ -1,0 +1,14 @@
+Source: casper-and-ubiquity-hooks
+Section: admin
+Priority: optional
+Maintainer: LliureX Tema <lliurex@gva.es>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://www.lliurex.net
+
+Package: ubiquity-hook-copy-sourceslist
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Ubiquity hook to regenerate grub
+ Hook to regenerate grub to fix naming interfaces (return to eth format) 
+

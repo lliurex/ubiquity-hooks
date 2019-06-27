@@ -1,0 +1,16 @@
+Source: ubiquity-hooks
+Section: admin
+Priority: optional
+Maintainer: Raul Rodrigo Segura <raurodse@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: http://lliurex.net
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/ubiquity-hooks.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/ubiquity-hooks.git
+
+Package: ubiquity-hook-copy-sourceslist
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Ubiquity hook to regenerate grub
+ Hook to regenerate grub to fix naming interfaces (return to eth format)
+
